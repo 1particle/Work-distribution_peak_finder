@@ -1,0 +1,37 @@
+		Work-distribution_peak_finder
+Software for finding the peak-location of the distributions of non-equilibrium
+external work performed in steered molecular dynamics simulations.
+The peak-values are used by the software to calculate the potential of mean force
+of the system under study. This software uses the GNU Scientific Library
+functions to perform linear fitting. The order of the fit (>=2) is determined
+by the user at run-time. Higher order fits generally take more computational time,
+but for a well-established distribution, a 2nd order fit usually suffices.
+ 
+The distributions themselves can be established using the Bidirectional_work-distribution_builder
+software, available at: https://github.com/1particle/Bidirectional_work-distribution_builder.
+**************************************
+Copyright 2014 Mostafa Nategholeslam
+**************************************
+Contact: physicsatguelph@gmail.com
+**************************************
+For a description of the purpose of this software, its design, theoretical motivations, and examples
+of its application, please see Chapter 3 of my PhD thesis at:
+
+https://atrium.lib.uoguelph.ca/xmlui/handle/10214/7790  
+
+********************************************************************************
+********************************************************************************
+********************************************************************************
+
+This program is free software: you can redistribute it and/or modify
+it under the terms of the GNU General Public License as published by
+the Free Software Foundation, either version 3 of the License, or
+(at your option) any later version.
+
+This program is distributed in the hope that it will be useful,
+but WITHOUT ANY WARRANTY; without even the implied warranty of
+MERCHANTABILITY or FITNESS FOR A PARTICULAR PURPOSE.  See the
+GNU General Public License for more details.
+
+You should have received a copy of the GNU General Public License
+along with this program.  If not, see <http://www.gnu.org/licenses/>.

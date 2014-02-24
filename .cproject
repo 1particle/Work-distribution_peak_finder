@@ -1,0 +1,98 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?fileVersion 4.0.0?><cproject storage_type_id="org.eclipse.cdt.core.XmlProjectDescriptionStorage">
+	<storageModule moduleId="org.eclipse.cdt.core.settings">
+		<cconfiguration id="cdt.managedbuild.toolchain.gnu.base.1451090747">
+			<storageModule buildSystemId="org.eclipse.cdt.managedbuilder.core.configurationDataProvider" id="cdt.managedbuild.toolchain.gnu.base.1451090747" moduleId="org.eclipse.cdt.core.settings" name="Default">
+				<externalSettings/>
+				<extensions>
+					<extension id="org.eclipse.cdt.core.ELF" point="org.eclipse.cdt.core.BinaryParser"/>
+					<extension id="org.eclipse.cdt.core.GCCErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GASErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+					<extension id="org.eclipse.cdt.core.GLDErrorParser" point="org.eclipse.cdt.core.ErrorParser"/>
+				</extensions>
+			</storageModule>
+			<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+				<configuration artifactName="2013_06_30__work_peak_finder__GSL_linear_fit" buildProperties="" description="" id="cdt.managedbuild.toolchain.gnu.base.1451090747" name="Default" parent="org.eclipse.cdt.build.core.emptycfg">
+					<folderInfo id="cdt.managedbuild.toolchain.gnu.base.1451090747.1401649105" name="/" resourcePath="">
+						<toolChain id="cdt.managedbuild.toolchain.gnu.base.896003948" name="cdt.managedbuild.toolchain.gnu.base" nonInternalBuilderId="cdt.managedbuild.target.gnu.builder.base" superClass="cdt.managedbuild.toolchain.gnu.base">
+							<targetPlatform archList="all" binaryParser="org.eclipse.cdt.core.ELF" id="cdt.managedbuild.target.gnu.platform.base.1854537478" name="Debug Platform" osList="linux,hpux,aix,qnx" superClass="cdt.managedbuild.target.gnu.platform.base"/>
+							<builder autoBuildTarget="all" buildPath="${workspace_loc:/Work-distribution_peak_finder}/Default" cleanBuildTarget="clean" id="org.eclipse.cdt.build.core.internal.builder.1281330302" incrementalBuildTarget="all" managedBuildOn="true" name="CDT Internal Builder" superClass="org.eclipse.cdt.build.core.internal.builder"/>
+							<tool id="cdt.managedbuild.tool.gnu.archiver.base.1881435295" name="GCC Archiver" superClass="cdt.managedbuild.tool.gnu.archiver.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.compiler.base.1060840377" name="GCC C++ Compiler" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.base">
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.compiler.input.1780987333" superClass="cdt.managedbuild.tool.gnu.cpp.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.compiler.base.1164558955" name="GCC C Compiler" superClass="cdt.managedbuild.tool.gnu.c.compiler.base">
+								<inputType id="cdt.managedbuild.tool.gnu.c.compiler.input.5804072" superClass="cdt.managedbuild.tool.gnu.c.compiler.input"/>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.c.linker.base.244983299" name="GCC C Linker" superClass="cdt.managedbuild.tool.gnu.c.linker.base"/>
+							<tool id="cdt.managedbuild.tool.gnu.cpp.linker.base.1571523326" name="GCC C++ Linker" superClass="cdt.managedbuild.tool.gnu.cpp.linker.base">
+								<option id="gnu.cpp.link.option.libs.1381146881" name="Libraries (-l)" superClass="gnu.cpp.link.option.libs" valueType="libs">
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="gsl"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="gslcblas"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="m"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="gsl"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="gslcblas"/>
+									<listOptionValue builtIn="false" srcPrefixMapping="" srcRootPath="" value="m"/>
+								</option>
+								<inputType id="cdt.managedbuild.tool.gnu.cpp.linker.input.1046755723" superClass="cdt.managedbuild.tool.gnu.cpp.linker.input">
+									<additionalInput kind="additionalinputdependency" paths="$(USER_OBJS)"/>
+									<additionalInput kind="additionalinput" paths="$(LIBS)"/>
+								</inputType>
+							</tool>
+							<tool id="cdt.managedbuild.tool.gnu.assembler.base.35939283" name="GCC Assembler" superClass="cdt.managedbuild.tool.gnu.assembler.base">
+								<inputType id="cdt.managedbuild.tool.gnu.assembler.input.1390690625" superClass="cdt.managedbuild.tool.gnu.assembler.input"/>
+							</tool>
+						</toolChain>
+					</folderInfo>
+				</configuration>
+			</storageModule>
+			<storageModule moduleId="org.eclipse.cdt.core.externalSettings">
+				<externalSettings containerId="org.eclipse.cdt.managedbuilder.pkgconfig.extSettings" factoryId="org.eclipse.cdt.core.extension.container.factory">
+					<externalSetting contentTypes="org.eclipse.cdt.core.cSource:org.eclipse.cdt.core.cxxSource"/>
+					<externalSetting contentTypes="org.eclipse.cdt.managedbuilder.core.compiledObjectFile">
+						<entry flags="UNDEFINED" kind="libraryFile" name="gsl" srcPrefixMapping="" srcRootPath=""/>
+						<entry flags="UNDEFINED" kind="libraryFile" name="gslcblas" srcPrefixMapping="" srcRootPath=""/>
+						<entry flags="UNDEFINED" kind="libraryFile" name="m" srcPrefixMapping="" srcRootPath=""/>
+					</externalSetting>
+				</externalSettings>
+			</storageModule>
+			<storageModule bash-completion="false" bigreqsproto="false" com_err="false" compositeproto="false" damageproto="false" dbus-python="false" deskbar-applet="false" dmx="false" dmxproto="false" dri="false" dri2proto="false" expat="false" fixesproto="false" fontconfig="false" fontenc="false" fontsproto="false" fontutil="false" freetype2="false" gl="false" glproto="false" gnome-icon-theme="false" gnome-icon-theme-symbolic="false" gnome-js-common="false" gnome-mime-data-2.0="false" gnutls="false" gnutls-extra="false" gsl="true" gtk-doc="false" ice="false" inputproto="false" iso-codes="false" kbproto="false" libcrypto="false" libcurl="false" libdrm="false" libdrm_intel="false" libdrm_nouveau="false" libdrm_radeon="false" libfs="false" libgdiplus="false" libidn="false" libkms="false" libquvi-scripts="false" librtmp="false" libslab="false" libssl="false" libtasn1="false" mate-default-applications="false" mate-doc-utils="false" mate-icon-theme="false" mate-keybindings="false" mate-mime-data-2.0="false" mate-python-2.0="false" mate-python-desktop-2.0="false" mate-screensaver="false" mate-settings-daemon="false" mate-system-tools="false" mate-window-settings-2.0="false" mirclient="false" mircommon="false" mobile-broadband-provider-info="false" moduleId="packages" notify-python="false" openssl="false" p11-kit-1="false" pciaccess="false" pixman-1="false" pm-utils="false" protobuf="false" protobuf-lite="false" pthread-stubs="false" pygtksourceview-2.0="false" pymatecorba-2="false" randrproto="false" recordproto="false" renderproto="false" resourceproto="false" scrnsaverproto="false" shared-mime-info="false" sm="false" tomboy-addins="false" udev="false" udisks="false" usbutils="false" videoproto="false" x11="false" x11-xcb="false" xau="false" xaw7="false" xbitmaps="false" xcb="false" xcb-dri2="false" xcb-glx="false" xcmiscproto="false" xcomposite="false" xcursor="false" xdamage="false" xdmcp="false" xext="false" xextproto="false" xf86bigfontproto="false" xf86dgaproto="false" xf86driproto="false" xf86vidmodeproto="false" xfixes="false" xfont="false" xft="false" xi="false" xinerama="false" xineramaproto="false" xkbfile="false" xkeyboard-config="false" xmu="false" xmuu="false" xorg-server="false" xorg-sgml-doctools="false" xorg-wacom="false" xpm="false" xproto="false" xrandr="false" xrender="false" xres="false" xscrnsaver="false" xt="false" xtrans="false" xtst="false" xv="false" xvmc="false" xxf86dga="false" xxf86vm="false" yelp-xsl="false" zlib="false"/>
+		</cconfiguration>
+	</storageModule>
+	<storageModule moduleId="cdtBuildSystem" version="4.0.0">
+		<project id="2013_06_30__work_peak_finder__GSL_linear_fit.null.33366937" name="2013_06_30__work_peak_finder__GSL_linear_fit"/>
+	</storageModule>
+	<storageModule moduleId="org.eclipse.cdt.core.LanguageSettingsProviders"/>
+	<storageModule moduleId="refreshScope" versionNumber="2">
+		<configuration configurationName="Default">
+			<resource resourceType="PROJECT" workspacePath="/2013_06_30__work_peak_finder__GSL_linear_fit"/>
+		</configuration>
+	</storageModule>
+	<storageModule moduleId="scannerConfiguration">
+		<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.base.1451090747;cdt.managedbuild.toolchain.gnu.base.1451090747.1401649105;cdt.managedbuild.tool.gnu.cpp.compiler.base.1060840377;cdt.managedbuild.tool.gnu.cpp.compiler.input.1780987333">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.release.988179596;cdt.managedbuild.config.gnu.exe.release.988179596.;cdt.managedbuild.tool.gnu.c.compiler.exe.release.817028818;cdt.managedbuild.tool.gnu.c.compiler.input.1056615489">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.923038065;cdt.managedbuild.config.gnu.exe.debug.923038065.;cdt.managedbuild.tool.gnu.c.compiler.base.1190208687;cdt.managedbuild.tool.gnu.c.compiler.input.850208109">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.923038065;cdt.managedbuild.config.gnu.exe.debug.923038065.;cdt.managedbuild.tool.gnu.c.compiler.exe.debug.1625651906;cdt.managedbuild.tool.gnu.c.compiler.input.1825999080">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.923038065;cdt.managedbuild.config.gnu.exe.debug.923038065.;cdt.managedbuild.tool.gnu.cpp.compiler.base.245140837;cdt.managedbuild.tool.gnu.cpp.compiler.input.1818206383">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.toolchain.gnu.base.1451090747;cdt.managedbuild.toolchain.gnu.base.1451090747.1401649105;cdt.managedbuild.tool.gnu.c.compiler.base.1164558955;cdt.managedbuild.tool.gnu.c.compiler.input.5804072">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.debug.923038065;cdt.managedbuild.config.gnu.exe.debug.923038065.;cdt.managedbuild.tool.gnu.cpp.compiler.exe.debug.88554111;cdt.managedbuild.tool.gnu.cpp.compiler.input.862914621">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+		<scannerConfigBuildInfo instanceId="cdt.managedbuild.config.gnu.exe.release.988179596;cdt.managedbuild.config.gnu.exe.release.988179596.;cdt.managedbuild.tool.gnu.cpp.compiler.exe.release.127916441;cdt.managedbuild.tool.gnu.cpp.compiler.input.78865888">
+			<autodiscovery enabled="true" problemReportingEnabled="true" selectedProfileId=""/>
+		</scannerConfigBuildInfo>
+	</storageModule>
+</cproject>
