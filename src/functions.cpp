@@ -211,9 +211,12 @@ void outputter (vector<xBin> & forward, vector<xBin> & reverse, vector<xBin> & P
 	            }
 	            // Getting the errors from the opposite size and combining the errors with appropriate weights
 	            for (int i=(int)PMF.size()-1; i >= 0 ; i --)         {
-	                error_temp[i] = sqrt (pow(forward[i].SDw,2)+pow(reverse[i].SDw,2));
-	                if (i < (int)PMF.size()-1)
-	                      error_temp[i] = sqrt( pow(error_temp[i], 2) + pow(error_temp[i+1], 2) );
+	                if (i < (int)PMF.size()-1)	{
+	                	error_temp[i] = sqrt (pow(forward[i+1].SDw,2)+pow(reverse[i+1].SDw,2));
+	                	error_temp[i] = sqrt( pow(error_temp[i], 2) + pow(error_temp[i+1], 2) );
+	                }
+	                else
+	                	error_temp[i] = 0;
 	                PMF[i].SDw = (PMF[i].SDw * error_temp[i]) / sqrt( pow(PMF[i].SDw, 2) + pow(error_temp[i],2) );
 
 	            }
